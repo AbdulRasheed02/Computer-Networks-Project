@@ -32,5 +32,5 @@ BEGIN {
   }
    
   END {
-       print "Average Throughput[kbps] = " (recvdSize/(stopTime-startTime))*(8/1000);
+       print (recvdSize/(stopTime-startTime))*(8/1000);
   }
