@@ -1,11 +1,11 @@
 @relation wirelessdata
 
 @attribute windowsize {20,30,40,50,60}
-@attribute packetsize real
-@attribute pdr real
-@attribute pckdropped real
-@attribute avgthrput real
-@attribute etedelay real
+@attribute packetsize {1000, 1010, 1020, 1030, 1040, 1050, 1060, 1070, 1080, 1090}
+@attribute pdr numeric
+@attribute pckdropped numeric
+@attribute avgthrput numeric
+@attribute etedelay numeric
 
 @data
 20,1000,0.963728,251,1209.56,22.9817
