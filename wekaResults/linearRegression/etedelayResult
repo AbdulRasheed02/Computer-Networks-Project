@@ -1,0 +1,35 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     wirelessdata-weka.filters.unsupervised.attribute.Remove-R3-5
+Instances:    50
+Attributes:   3
+              windowsize
+              packetsize
+              etedelay
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+etedelay =
+
+    245.3728 * windowsize=30,40,20 +
+    226.7683 * packetsize=1060,1010,1050,1070,1090 +
+    376.7526 * packetsize=1090 +
+    -70.4173
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.1422
+Mean absolute error                    302.3772
+Root mean squared error                392.7012
+Relative absolute error                116.4379 %
+Root relative squared error            109.7638 %
+Total Number of Instances               50     
+
