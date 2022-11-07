@@ -15,5 +15,5 @@
 }
 }
 END { 
-   print "Packet Delivery Ratio = " receivedPackets/(seqno+1)*100" %";
+   print receivedPackets/(seqno+1);
 }

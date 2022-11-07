@@ -15,5 +15,5 @@
    }
 }
 END { 
-   print "Total Dropped Packets = " droppedPackets "";
+   print droppedPackets;
 }

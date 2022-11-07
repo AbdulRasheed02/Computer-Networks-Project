@@ -43,5 +43,5 @@
  }
 END { 
     
-   print "Average End-to-End Delay = " n_to_n_delay * 1000 " ms";
+   print n_to_n_delay * 1000;
 }

@@ -20,7 +20,7 @@ Agent/TCP set window_   20
 #packet size used by sender (bytes);             
 Agent/TCP set packetSize_ 1000
 
-#bound on Retransmission timeout (seconds);
+#Algorithm;
 Agent/TCP set windowOption_ 1               
 
 #initialize the variables
