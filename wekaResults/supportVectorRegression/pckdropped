@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     wirelessdata-weka.filters.unsupervised.attribute.Remove-R3,5-6
+Instances:    50
+Attributes:   3
+              windowsize
+              packetsize
+              pckdropped
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.0049 * (normalized) windowsize=20
+ -       0.1099 * (normalized) windowsize=30
+ -       0.1435 * (normalized) windowsize=40
+ +       0.0553 * (normalized) windowsize=50
+ +       0.1933 * (normalized) windowsize=60
+ +       0.0355 * (normalized) packetsize=1000
+ -       0.0175 * (normalized) packetsize=1010
+ -       0.179  * (normalized) packetsize=1020
+ +       0.0678 * (normalized) packetsize=1030
+ -       0.2914 * (normalized) packetsize=1040
+ +       0.2746 * (normalized) packetsize=1050
+ +       0.1821 * (normalized) packetsize=1060
+ +       0.132  * (normalized) packetsize=1070
+ -       0.1084 * (normalized) packetsize=1080
+ -       0.0957 * (normalized) packetsize=1090
+ +       0.4197
+
+
+
+Number of kernel evaluations: 1275 (95.294% cached)
+
+Time taken to build model: 0.01 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.2346
+Mean absolute error                     96.5063
+Root mean squared error                114.0076
+Relative absolute error                116.1011 %
+Root relative squared error            112.1753 %
+Total Number of Instances               50     
+

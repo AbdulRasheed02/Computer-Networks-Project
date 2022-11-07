@@ -1,0 +1,32 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     wirelessdata-weka.filters.unsupervised.attribute.Remove-R3-4,6
+Instances:    50
+Attributes:   3
+              windowsize
+              packetsize
+              avgthrput
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+ : 721.34 (33/215277.73) [17/240253.72]
+
+Size of the tree : 1
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.2471
+Mean absolute error                    471.4456
+Root mean squared error                517.2633
+Relative absolute error                104.7545 %
+Root relative squared error            106.6656 %
+Total Number of Instances               50     
+
