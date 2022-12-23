@@ -1,12 +1,15 @@
+## Computer Networks Project
+Determining the Optimal Values of Configuration Parameters in Wireless Networks for Effective Congestion Control using Machine Learning
+
 Group Number - 25
+
 Group Members -
-	- Abdul Rasheed Mohamed Ali - 106120026
-	- B S Sivasundar - 106120026
-	- J Sooraj Krishna - 106120048
 
-This is a helper ReadMe.txt file for navigating through our project directory.
+	Abdul Rasheed Mohamed Ali - 106120026
 
-The directories in our project directory are - 
+	B S Sivasundar - 106120026
+
+### Project Directory
 
 - awkFiles : This directory contains the .awk files that we used to extract the values of different performance metrics (PDR, Throughput, Average End-To-End Delay, Number of Dropped Packets).
 - excelFiles : This directory contains the raw dataset obtained in .ods and .arff formats.
@@ -19,7 +22,7 @@ The directories in our project directory are -
 
 The implementation of the Wireless Network in ns2 can be found in the tcpRenoWireless.tcl file. 
 
-To run the wireless network, follow the given steps -
+### Running the NS2 program
 
 1) Make sure you are in the main project directory. 
 2) Open the terminal.
